@@ -97,15 +97,16 @@
 	align: vertical;
 		     position: relative;
   display: flex;
+		    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 	    #search: hover{
 		    background-color: #448CDD;
 				colore:white;
 		     width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%)
+  
 		}
 	    .searchTerm {
   width: 50%;
@@ -116,6 +117,11 @@
   border-radius: 5px 0 0 5px;
   outline: none;
   color: blue;
+		    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+	  border-radius: 25px;
 }
  .searchButton {
   width: 50%;
@@ -127,6 +133,11 @@
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
+	 position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+	  border-radius: 25px;
 }
 	    form{
 		    display:block;		
