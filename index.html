@@ -101,8 +101,8 @@
 }
 	    #search: hover{
 		    background-color: white;
-						colore:white;
-		    						 width: 30%;
+						colore:green;
+		    						
 				}
 	.searchTerm {
   			width: 100%;
@@ -121,7 +121,10 @@
 		    margin-left: 50px;
 		font-weight: bold;
 	    }
-	    
+	    .searchTerm: hover{
+		    background-color: white;
+						colore:green;
+	    }
 	    .searchButton {
  				width: 100%;
   						height: 40px;
@@ -138,7 +141,10 @@
 		   	 margin-left: 50px;
 		    font-weight: bold;
 }
-	    
+	      .searchbutton: hover{
+		    background-color: white;
+						colore:green;
+	    }
 	    form{
 		    display:block;		
 		    		border-radius: 25px; 
@@ -154,7 +160,11 @@
 		    					align: vertical;
 		    			flex-direction: column;
 	    }
-        </style>
+          form: hover{
+		    background-color: white;
+						colore:green;
+	    }
+	    </style>
     </head>
     <body>
 	    
@@ -172,7 +182,7 @@
         <form action="https://google.com/search">	
             <input type="text"  class="searchTerm" placeholder="What are you looking for?">
 		<div class="searchButton"> 
-			<imput type="submit"   value="Google Search"> </div>       
+			<button  type="submit"   placeholder="Google Search"> </button> </div>       
         </form>
 </li>
     </body>
