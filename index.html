@@ -17,73 +17,73 @@
 						display: inline-table;
 							border-radius: 25px;
 								Padding-top: 10px;
-								width: 100%;
-									margin-top: 200px;
+									width: 100%;
+											margin-top: 200px;
 										Margin-left: 10px;
 									color: white;
+								background-color: #448CDD;
 							float: right;
-		sortable: false;
+				"ordering": false;
 		}
-			.btn {
-					display: inline-table;
+	.btn {
+				display: inline-table;
 							text-align: center;
 									font-weight: bold;
-				border-radius: 25px;
-								Padding-top: 25px;
-											grid-raw-gap: 10px;
-										background-color: #448CDD;
-  									color: white;
-  								font-size: 25px;
-  							padding: 5px;
-  						cursor: pointer;
-								Margin-left: 10px;
-										margin-right: 10px 
-										Margin-top: 200px;
-				float: right;
-				"ordering": false;
+											border-radius: 25px;
+												Padding-top: 25px;
+													grid-raw-gap: 10px;
+												background-color: #448CDD;
+  											color: white;
+  										font-size: 25px;
+  									padding: 5px;
+  								cursor: pointer;
+							Margin-left: 10px;
+						margin-right: 10px 
+					Margin-top: 200px;
+				float: right;														"ordering": false;
 		}
 				.container .btn {
 						display: inline-table;
 								text-align: center;
-					border-radius: 25px;
-								Padding-top: 25px;
-										font-weight: bold;
-												grid-raw-gap: 10px;
-										background-color: #448CDD;
-  										color: white;
-  									font-size: 25px;
-  								padding: 10px;
-  						cursor: pointer;
-								Margin-left: 10px;
-										margin-right: 10px 
-  												
-										Margin-top: 100px;
-					float: right;
+									border-radius: 25px;
+											Padding-top: 25px;
+												font-weight: bold;
+													grid-raw-gap: 10px;
+														color: #448CDD;
+  													font-size: 25px;
+  												padding: 10px;
+  											cursor: pointer;
+										Margin-left: 10px;
+									margin-right: 10px 		
+								Margin-top: 100px;
+							float: right;
 					"ordering": false;
+				background-color: #448CDD;
 		}
 				.container .btn a {
 						display: inline-table;
 								text-align: center;  
 											border-radius: 25px;
-								Padding-top: 25px;
-										font-weight: bold;
-												font-size: 25px;
-											color: white;
-										grid-column-gap: 10px;
-            								grid-row-gap: 10px;
-  								padding: 10px;
-  							cursor: pointer;	
-										Margin-top: 100px;
-												Margin-left: 10px;
-					float: right;
+													Padding-top: 25px;
+														font-weight: bold;
+															font-size: 25px;
+														color: white;
+													grid-column-gap: 10px;
+            											grid-row-gap: 10px;
+  											padding: 10px;
+  										cursor: pointer;	
+									Margin-top: 100px;
+								Margin-left: 10px;
+							float: right;
 					"ordering": false;
+				background-color: #448CDD;
 		}
 			.container: hover {
   					background: #448CDD;
 				color: blue;
 		}
 			.btn: hover {
-  					background: #448CDD;
+  					background-color: #448CDD;
 				colore:blue;
 		}
 	    #search {
@@ -126,6 +126,18 @@
 	 		position: absolute;
 	  border-radius: 25px;
 }
+	    
+	    .searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
 	    form{
 		    display:block;		
 		    border-radius: 25px; 
@@ -145,7 +157,7 @@
 	    
 	    <div class "container">
         		<div class="btn">
-				<a href="https://harvard2020.github.io/LoginGoogleSearch/"  <button class="btn">1. I’m Feeling Lucky</button></a></div>
+				<a href="https://harvard2020.github.io/LoginGoogleSearch/"  <button class="btn">advanceI’m Feeling Lucky</button></a></div>
 		    	
 			<div class="btn">
 				<a href=" https://harvard2020.github.io/RegistrationIMG/"  <button class="btn">Google Image</a></div>
@@ -156,9 +168,8 @@
    <li id="search">
         <form action="https://google.com/search">	
             <input type="text"  class="searchTerm" placeholder="What are you looking for?">
-		<button type="submit"  placeholder="Google Search">		
-		</button>
-           
+		<button type="submit"  class="searchButton" placeholder="Google Search">		
+		</button>          
         </form>
 </li>
     </body>
